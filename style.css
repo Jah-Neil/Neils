@@ -1,0 +1,103 @@
+:root {
+    --color-1: red;
+    --color-2: gold;
+    --color-3: green;
+    --color-4: orange;
+    --color-5: black;
+}
+
+body{
+
+    display: flexbox;
+}
+
+img{
+    border-radius: 50%;
+    width: 200px;  
+    padding: 10px;
+    text-align: center;
+}   
+
+.fire {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+}
+
+.fire-right {
+
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    right: 10px;
+}
+
+.center {
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.top-container {
+    background-color: bisque
+}
+
+h1 {
+    display: block;
+    text-align: center;
+    font-family: 'Single Day', cursive;
+    text-decoration: underline;
+    background-image: linear-gradient(3deg, red 33%, rgb(224, 191, 3) 55%, green 22%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 15vh;
+    background-size: cover;
+}
+
+
+h2 {
+    font-family: 'Single Day', cursive;
+    background-color: bisque; 
+background: linear-gradient(bisque)    
+}
+
+.world {
+    background-image: linear-gradient(1deg, red 33%, rgb(224, 191, 3) 55%, green 22%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+margin: auto;}
+
+.middle-container {
+    background-color: aliceblue;
+    margin: auto;
+}
+
+.btn-primary {
+    background-color: green;
+}
+
+.btn-outline-dark{
+    background-color: red;
+}
+
+.bottom-container {
+    background-color: brown;
+}
+
+.htmlimg {
+    float: right;
+    margin-top: -75px;
+}
+
+.cssimg{
+    display: flex;
+    height: 18.6vh;
+    width: 60.5vh;
+    float: right;
+    margin-top: -100px;
+    margin-right: -250px;
+}
